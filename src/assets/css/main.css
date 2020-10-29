@@ -867,8 +867,10 @@ input, select, textarea {
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
+			color: black;
 		}
 
+		
 /* Image */
 
 	.image {
