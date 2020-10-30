@@ -3657,7 +3657,7 @@ input, select, textarea {
 			-ms-flex-direction: column;
 			flex-direction: column;
 			height: auto;
-			margin: 0 0 5rem 0;
+			margin: 0;
 			box-shadow: 0 0.25rem 1.5rem 0.25rem rgba(46, 43, 55, 0.5);
 		}
 
@@ -3693,4 +3693,28 @@ input, select, textarea {
 				transform: none;
 			}
 
+	}
+
+	#content-home {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-flex-direction: row;
+		-webkit-flex-direction: row;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		position: relative;
+		height: 32rem;
+	}
+
+	@media screen and (max-width: 736px) {
+
+		#content-home {
+			-moz-flex-direction: column;
+			-webkit-flex-direction: column;
+			-ms-flex-direction: column;
+			flex-direction: column;
+			height: auto;
+		}
 	}
