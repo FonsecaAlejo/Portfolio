@@ -3,7 +3,10 @@
 } 
 
 .content-img{
-    display: flex; width: 26em; align-items: center; padding: 2%;
+    display: flex;
+    width: 26em; 
+    align-items: center; 
+    padding: 2%;
 }
 
 .content-img figure{
@@ -28,5 +31,13 @@
 
     .content-img{
         width: 100vw;
+        padding: 0;
     }
+
+    .content-img figure{
+        
+        /* box-shadow: 0px 3px 6px #c1bcbc;  */
+        border-radius: 0; 
+    }
+
 }
