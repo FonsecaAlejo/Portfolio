@@ -2254,6 +2254,10 @@ input, select, textarea {
 				background-color: #323459;
 			}
 
+			strong.color1 {
+				color: #3F3844;
+			}
+
 		.panel > .intro {
 			padding: 3.5rem 3.5rem 2rem 3.5rem ;
 			display: -moz-flex;
