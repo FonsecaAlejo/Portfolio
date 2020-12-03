@@ -20,6 +20,10 @@
     object-fit: cover;
 }
 
+.color1{
+    color: #726193;
+}
+
 @media screen and (max-width: 736px) {
 
     .content-img{
