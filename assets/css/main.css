@@ -3546,7 +3546,7 @@ input, select, textarea {
 
 		#page-wrapper {
 			height: auto;
-			padding: 1rem;
+			padding: 0;
 		}
 
 	}
