@@ -59,5 +59,9 @@
         margin: .5em;
     }
 
+    .page-wrapper{
+        padding: 0;
+    }
+
 }
 
